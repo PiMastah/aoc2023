@@ -1,7 +1,7 @@
 import { EOL } from 'os'
 import { readFileSync } from 'fs'
 
-const output = 
+const output =
   readFileSync('input.txt', 'utf8')
   .split(EOL)
   .map(x => x.split('').map(x => +x).filter(x => !isNaN(x)))

@@ -3,7 +3,7 @@ import { readFileSync } from 'fs'
 
 const numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
-const output = 
+const output =
   readFileSync('input.txt', 'utf8')
   .split(EOL)
   .map((x, idx) => {

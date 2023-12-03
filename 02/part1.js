@@ -1,7 +1,7 @@
 import { EOL } from 'os'
 import { readFileSync } from 'fs'
 
-const input = 
+const input =
   readFileSync('input.txt', 'utf8')
 
 const games = input.split(EOL).map(l => {
